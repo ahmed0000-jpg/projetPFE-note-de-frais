@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="classification.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="classification.js"></script>
+</head>
+<body>
+<alert>
+  <div id="overlay" ></div>
+  <div id="alertPanel" ></div>
+</alert>
+<header>
+  <div>
+  </div>
+</header>
+
+<div class="container">
+  <nav >
+  </nav>
+  <p >
+  <h1>interface de configuration</h1>
+  <a href="javascript:window.location.reload()">vider la page</a>
+  </p>
+  <section >
+
+    <p>
+      <label >restaurant : </label>
+    </p>
+    <p>
+      <button id="res">ajouter mot clés</button>
+    </p>
+    <div id="restaurant">
+
+    </div>
+  </section>
+  <section >
+    <p>
+      <label >péage : </label>
+    </p>
+    <p>
+      <button id="pea">ajouter mot clés</button>
+    </p>
+    <div id="peage">
+
+    </div>
+  </section>
+  <section>
+    <p>
+      <label >parking : </label>
+    </p>
+    <p>
+      <button id="par">ajouter mot clés</button>
+    </p>
+    <div id="parking">
+
+    </div>
+  </section>
+  <section>
+    <p>
+      <label >train : </label>
+    </p>
+    <p>
+      <button id="trai">ajouter mot clés</button>
+    </p>
+    <div id="train">
+
+    </div>
+  </section>
+  <section>
+    <p>
+      <label >hotel : </label>
+    </p>
+    <p>
+      <button id="hote">ajouter mot clés</button>
+    </p>
+    <div id="hotel">
+
+    </div>
+  </section>
+  <section>
+    <p>
+      <label >avion : </label>
+    </p>
+    <p>
+      <button id="avi">ajouter mot clés</button>
+    </p>
+    <div id="avion">
+
+    </div>
+  </section>
+
+  <div>
+    <button div="submit"onclick="load()">submit</button>
+  </div>
+  <footer >
+    <div >
+    </div>
+  </footer>
+
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.2/firebase-app.js"></script>
+<script src = "https://www.gstatic.com/firebasejs/7.14.2/firebase-database.js"></script>
+</body>
+</html>
